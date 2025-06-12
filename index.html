@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Olá, meu nome é Pedro Correa</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou bom em programação, sei utilizar power point, excel, word, etc.
+            pretendo virar programador ou TI.
+            Pratico esportes como futebol e volei
+            Já criei alguns projetos no vscode, p5.js, github, etc.
+            venha ver minhas melhores criações.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">Futebol</p>
+            <p class="badge bg-secondary">Excel</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenvolvimeto de um site sobre a serie minecaft imortal</h5>
+                        <p class="card-text">Um site sobre a serie minecraft imortal, onde contem todos os episodios. Um site bem estilizado e feito em javascript
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Utilizando o Scratch para criar um jogo de ping pong</h5>
+                        <p class="card-text">Um jogo de ping pong bem interativo e estilizado. Feito no scratch</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.jpeg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Utilizando o P5.js para criar um jogo de corrida
+                        </h5>
+                        <p class="card-text">Um jogo de corrida muito interativo e estilizado. Feito no p5.js
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Venha Ver</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Meu Portifólio: Um site sobre uma série de minecraft</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Portifólio feito em javascript, com seu conteúdo sendo sobre a serie de minecrat chamada minecraft imortal, criada pelo youtuber brasileiro jazzghost</p>
+                    <img src="img/projeto-1.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://pedrocorrea1b.github.io/PedroFlix/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/PedroCorrea1B/PedroFlix">Ver no github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mee Jogo: um Jogo de pong</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um jogo de pong feito no scratch</p>
+                    <img src="img/projeto-2.png" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/1037458615/">Ver projeto no scratch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mee Jogo: um jogo de corrida</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Um jogo de corrida feito no p5.js</p>
+                    <img src="img/projeto-3.jpeg" alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://editor.p5js.org/PedroRodriguesCorrea/sketches/XhkG8wz-T">Ver projeto no p5.js</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/PedroCorrea1B">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Pedro Correa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
