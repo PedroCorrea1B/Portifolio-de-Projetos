@@ -22,3 +22,15 @@ h1, h2, h5 {
  a:hover, .btn-link:hover {
     color: var(--cor-destaque);
 }
+
+
+footer i.bi-patch-check-fill {
+    margin-left: 0.5rem;
+    color: var(--cor-principal);
+    vertical-align: middle;
+}
+
+.badge {
+    background-color: #09c8fa !important;
+    color: black;
+}
